@@ -29,7 +29,7 @@ Open [http://localhost:3000]
 
 ### `npm run test`
 
-Executes jest test framework
+Executes jest test framework / suites
 
 #### `HCSintegrationtool` - Holds the server application
 
@@ -40,6 +40,8 @@ Executes jest test framework
     - #### `routes` - Contains all of our HTTP to URL path associations for each unique url
     - #### `tests` - Contains all of our server tests that we have defined
 - #### `index.js` - Defines npm behaviors and packages for the client
-#### `package.json` - Defines npm behaviors like the scripts defined in the next section of the README
-#### `.gitignore` - Tells git which files to ignore
-#### `README` - This file!
+- #### `package.json` - Defines npm behaviors like the scripts defined in the next section of the README
+- #### `.gitignore` - Tells git which files to ignore
+- #### `README` - This file!
+
+
