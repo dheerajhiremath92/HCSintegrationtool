@@ -1,6 +1,6 @@
 const csvtojson = require("csvtojson");
-import { patient } from "./src/models/patient.js";
-import { emailModel } from "./src/models/email.js";
+import { patient } from "../models/patient.js";
+import { emailModel } from "../models/email.js";
 import "regenerator-runtime/runtime";
 import mongoose from "mongoose";
 import { expect } from "@jest/globals";
