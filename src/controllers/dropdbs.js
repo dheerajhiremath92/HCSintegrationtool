@@ -1,6 +1,7 @@
 import { emailModel } from "../models/email.js";
 import { patient } from "../models/patient.js";
 
+// function to drop patient collection programmatically 
 export const droppatientdb = async (req, res) => {
   try {
     await patient.collection
@@ -12,6 +13,7 @@ export const droppatientdb = async (req, res) => {
   }
 };
 
+// function to drop emails collection programmatically 
 export const dropemaildb = async (req, res) => {
   try {
     await emailModel.collection
