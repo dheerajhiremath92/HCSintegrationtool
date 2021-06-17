@@ -5,7 +5,7 @@
 - node.js project to load CSV data into a Patients collection in MongoDB.
 - Schedule emails for every patient that has CONSET=Yes.
 - Verify the data in flat file matches the data in Patients collection
-- Print out all missing information like missing first name, missing email addrss with Consent="Yes (Automation script)
+- Print out all missing information like missing first name, missing email addrss with Consent="Yes
 - Verifiication of correct email scheduling for each patient (Unit test)
 
 ## Getting Started
